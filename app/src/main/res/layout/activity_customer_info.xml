@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6C2"
+    android:orientation="vertical"
+    tools:context=".CustomerInfo">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#FED9A8"
+        android:gravity="center"
+        android:text=" Customer's Information "
+        android:textColor="#E49013"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/info" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView4"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="30dp"-->
+    <!--        app:srcCompat="@drawable/info" />-->
+
+    <ListView
+        android:id="@+id/Lview"
+        android:layout_width="match_parent"
+        android:layout_height="348dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/preBtnCI"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Back"
+        android:textColor="#CA7800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E3E3E3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+</LinearLayout>
